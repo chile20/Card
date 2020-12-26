@@ -1,0 +1,164 @@
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-text-size-adjust: 100% !important;
+  -ms-text-size-adjust: 100% !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+img {
+  border: 0 !important;
+  outline: none !important;
+}
+p {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+table {
+  border-collapse: collapse;
+  mso-table-lspace: 0px;
+  mso-table-rspace: 0px;
+}
+td,
+a,
+span {
+  border-collapse: collapse;
+  mso-line-height-rule: exactly;
+}
+.ExternalClass * {
+  line-height: 100%;
+}
+.em_defaultlink a {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+span.MsoHyperlink {
+  mso-style-priority: 99;
+  color: inherit;
+}
+span.MsoHyperlinkFollowed {
+  mso-style-priority: 99;
+  color: inherit;
+}
+@media only screen and (min-width: 481px) and (max-width: 699px) {
+  .em_main_table {
+    width: 100% !important;
+  }
+  .em_wrapper {
+    width: 100% !important;
+  }
+  .em_hide {
+    display: none !important;
+  }
+  .em_img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .em_h20 {
+    height: 20px !important;
+  }
+  .em_padd {
+    padding: 20px 10px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .em_main_table {
+    width: 100% !important;
+  }
+  .em_wrapper {
+    width: 100% !important;
+  }
+  .em_hide {
+    display: none !important;
+  }
+  .em_img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .em_h20 {
+    height: 20px !important;
+  }
+  .em_padd {
+    padding: 20px 10px !important;
+  }
+  .em_text1 {
+    font-size: 16px !important;
+    line-height: 24px !important;
+  }
+  u + .em_body .em_full_wrap {
+    width: 100% !important;
+    width: 100vw !important;
+  }
+}
+//*snow*//
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+}
+.snowcontainer {
+  position: relative;
+  width: 100%;
+  overflow: visible;
+}
+.snow {
+  background-image: url("https://ccasset.azureedge.net/3813/snow-one.png"),
+    url("https://ccasset.azureedge.net/3813/snow-two.png"),
+    url("https://ccasset.azureedge.net/3813/snow-three.png");
+  height: 80%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 80%;
+}
+.snow1 {
+  animation: snow1 5s linear 0s infinite;
+}
+/* animation: Name of animation / length of animation / timing function 
+(linear = same speed from beginning to end) / delay (time between 
+animation end and start) / number of times */
+.snow2 {
+  animation: snow2 4s linear 1s infinite;
+}
+.snow3 {
+  animation: snow3 5s linear 2s infinite;
+}
+.snow4 {
+  animation: snow4 6s linear 3s infinite;
+}
+@keyframes snow1 {
+  0% {
+    top: 0%;
+    left: 50%;
+  }
+  100% {
+    top: 100%;
+    left: 65%;
+  }
+}
+@keyframes snow2 {
+  0% {
+    top: 0%;
+    left: 30%;
+  }
+  100% {
+    top: 100%;
+    left: 25%;
+  }
+}
+@keyframes snow3 {
+  0% {
+    top: 0%;
+    left: 70%;
+  }
+  100% {
+    top: 100%;
+    left: 60%;
+  }
+}
+@keyframes snow4 {
+  0% {
+    top: 0%;
+    left: 50%;
+  }
+  100% {
+    top: 100%;
+    left: 0%;
+  }
+}
